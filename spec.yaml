@@ -1,0 +1,6 @@
+youtube:
+  base_url: "https://youtube.com"
+  items:
+    channel: "div.yt-lockup-content div.yt-lockup-byline a[href]"
+    url: "div.yt-lockup-content h3.yt-lockup-title a.yt-ui-ellipsis[href]"
+    duration: "div.yt-lockup-content h3.yt-lockup-title span.accessible-description|split(':', 1)[-1]|strip()"
